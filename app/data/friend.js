@@ -14,6 +14,22 @@ var friendList = [
       "3",
       "4"
     ]
+  },
+  {
+    name: 'Drew Doughty',
+    profilePic: 'https://bookingagentinfo.com/wp-content/uploads/2018/04/Drew-Doughty-Contact-Information.jpg',
+    scores: [
+      "2",
+      "1",
+      "5",
+      "2",
+      "4",
+      "5",
+      "4",
+      "5",
+      "3",
+      "4"
+    ]
   }
 ]
 
