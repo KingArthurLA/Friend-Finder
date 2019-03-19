@@ -1,36 +1,11 @@
-# FriendFinder
+#Friend Finder Application
 
-Created during Week 13 of Rutgers Coding Bootcamp. The goal was to create a Friend Finder app (essentially a dating app but for friends) using Node and Express servers. The user enters the page that leads to a survey. When the user submits the survey, they are matched with a "friend" that has the closest match to their personality.
+##Description
 
-## Getting Started
-http://protected-coast-16615.herokuapp.com/
+*Friend Finder* implements friend matching based on the user's responses to a ten question survey. The user responds to questions with values from 1 (Strongly Disagree) to 5 (Strongly Agree). When the survey is submitted, an existing user record closest to the current user's responses is found and returned. The closest set of user responses is defined as the set with the lowest absolute difference for all ten questions combined.
 
-## Screen Shots
+*Friend Finder* application is meant to simulate a simple dating app. The application is implemented using a [Node.js](https://nodejs.org/en/) and [Express](https://expressjs.com/) server on the back end and the [Materialize](http://materializecss.com/) CSS framework on the front end.
 
-![Screen shot](app/public/images/SS1.png)
-Index Page
+##Demo
 
-![Screen shot 2](app/public/images/SS2.png)
-Survey
-
-## Technologies used
-- Node.js
-- body-parager NPM Package - https://www.npmjs.com/package/inquirer
-- express NPM Package - https://www.npmjs.com/package/express
-- path NPM Package - https://www.npmjs.com/package/path
-
-### Prerequisites
-
-```
-- Node.js - Download the latest version of Node https://nodejs.org/en/
-- Materialize - Add CDN link to HTML http://materializecss.com/getting-started.html
-```
-
-## Built With
-
-* Sublime Text - Text Editor
-* Materialize - Wireframe
-
-## Authors
-
-* **Stefanie Ding** - *HTML/JS/Node.js* - [Stefanie Ding](https://github.com/StefanieDing)
+Friend Finder is deployed to Heroku. Please check it out [here](https://salty-scrubland-33595.herokuapp.com/).
